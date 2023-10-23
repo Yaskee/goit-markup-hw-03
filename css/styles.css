@@ -113,6 +113,7 @@ body {
 .header-address {
   display: flex;
   gap: 40px;
+  padding: 24px 0;
 }
 
 .header-contact {
@@ -221,6 +222,7 @@ button {
   display: flex;
   flex-wrap: wrap;
   gap: 24px;
+  border-radius: 0px 0px 4px 4px;
 }
 
 .team-cards {
@@ -229,6 +231,11 @@ button {
   border-bottom: 1px;
   border-radius: 0px 0px 4px 4px;
 }
+
+.name-position {
+  padding: 32px 0;
+}
+
 .team-names {
   text-align: center;
   font-family: 'Roboto', sans-serif;
@@ -263,6 +270,7 @@ button {
   display: flex;
   flex-wrap: wrap;
   column-gap: 24px;
+  row-gap: 48px;
 }
 
 .portfolio-cards {
@@ -271,6 +279,7 @@ button {
   border-bottom: 1px solid #e7e9fc;
   border-radius: 4px;
 }
+
 
 .portfolio-services {
   font-family: 'Roboto', sans-serif;
@@ -294,8 +303,12 @@ button {
 .footer-container {
   display: flex;
   flex-direction: column;
-  padding-top: 100px;
-  padding-bottom: 100px;
+  padding: 100px 0;
+}
+
+.footer-link {
+  display: inline-block;
+  margin-bottom: 16px;
 }
 
 .footer-logo-words {
@@ -306,5 +319,4 @@ button {
   color: #f4f4fd;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  margin-top: 16px;
 }
