@@ -302,11 +302,6 @@ button {
   padding: 100px 0;
 }
 
-.footer-container {
-  display: flex;
-  flex-direction: column;
-}
-
 .footer-link {
   display: inline-block;
   margin-bottom: 16px;
